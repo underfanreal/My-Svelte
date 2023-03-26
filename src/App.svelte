@@ -65,7 +65,7 @@
 						The server has blocked your IP address ({link.ip}).
 					{:else if $disconnectReason == "E:110 | ID conflict"}
 						There has been a hiccup! Looks like you logged into
-						Meower from another device.
+						Helix from another device.
 						<br /><br />
 						Please check any devices currently logged into Helix and
 						try again.
@@ -160,11 +160,11 @@
 
 		font-family: Simvoni, sans-serif;
 
-		--orange: #f9a636;
+		--orange: #710193;
 		--orange-button: var(--orange);
-		--orange-light: #ffce8c;
-		--orange-dark: #b46d34;
-		--orange-scrollbar-back: #a15d04;
+		--orange-light: #710193;
+		--orange-dark: #301934;
+		--orange-scrollbar-back: #592693;
 		--background: white;
 		--foreground: black;
 		--foreground-orange: white;
@@ -179,10 +179,10 @@
 	}
 
 	#main.theme-orange.mode-dark {
-		--orange: #b35305;
-		--orange-light: #dd7f14;
-		--orange-dark: #ac4718;
-		--orange-scrollbar-back: rgb(131, 45, 5);
+		--orange: #710193;
+		--orange-light: #710193;
+		--orange-dark: #301934;
+		--orange-scrollbar-back: rgb(148, 0, 211);
 		--background: #020010;
 		--foreground: #eef;
 		--foreground-orange: #eef;

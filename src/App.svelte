@@ -52,11 +52,11 @@
 >
 	{#if $disconnected}
 		<Modal>
-			<h2 slot="header">Me-owch.</h2>
+			<h2 slot="header">Whoops!</h2>
 			<div slot="default">
 				<p>
 					{#if $disconnectReason === ""}
-						Something went wrong and the connection to Meower was
+						Something went wrong and the connection to Helix was
 						lost.
 					{:else if $disconnectReason === "Failed to load userdata"}
 						An unexpected error occurred while trying to load your
@@ -67,7 +67,7 @@
 						There has been a hiccup! Looks like you logged into
 						Meower from another device.
 						<br /><br />
-						Please check any devices currently logged into Meower and
+						Please check any devices currently logged into Helix and
 						try again.
 					{:else if $disconnectReason == "E:018 | Account Banned"}
 						You have been banned by a moderator.
